@@ -6,7 +6,7 @@
 }
 header{
     background-color:  rgba(255, 144, 14, 0.1);
-    width: 100%;
+    
 }
 nav{
     display: flex;
@@ -64,7 +64,7 @@ nav ul{
     
 }
 .b-img img{
-    width: 1250px;
+    width: 1200px;
     height: 700px;
     border-radius: 8px;
     margin-top: 50px;
@@ -100,12 +100,20 @@ nav ul{
 /* Features you will love & enjoy */
 .enjoy{
     margin-top: 130px;
+    
 }
 .bold{
     font-weight: 700;
     font-size: 45px;
     color: #131313;
     margin-bottom: 20px;
+    border-left: 4px solid #FF900E;
+    padding-left: 20px;
+}
+.p-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
 }
 
 .en-img img{
@@ -117,16 +125,15 @@ nav ul{
 }
 .en-info{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     
-    width: 100%;
-    max-width: 1350px;
-    margin: 0 auto;
+    justify-content: center;
+    
+    
+
 }
 .en-sub1{
-    width: 586px;
-    height: 160px;
+    width: 500px;
+    height: 150px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -134,12 +141,135 @@ nav ul{
     margin-bottom: 20px;
     padding: 30px;
 }
+.en-sub-text{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.en-con{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+/* some facts */
+.some-info{
+    margin-left: 200px;
+}
+.some-sub{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.some-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    
+}
+.skill{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    
+    
+}
+.sec-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1250px;
+    
+    margin: 0 auto;
+    
+    
+
+}
+.plans{
+    margin-top: 100px;
+}
+/* our sevices */
+.service{
+    background-color: #005FAC;
+    height: 600px;
+}
+
+.s-index{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    padding-top: 50px;
+}
+.ser-text{
+    text-align: center;
+
+}
+.ser-btn{
+    font-weight: 100;
+    font-size: 15px;
+
+    color: #FFFFFF;
+    width: 170.11px;
+    height: 64px;
+    background-color: #2121a7;
+    border-radius: 8px;
+
+}
+/* our sponsers */
+.sponsers{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+    padding-top: 50px;
+}
+.sp-sub{
+    font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   color: #727272;
+   padding-top: 20px;
+   margin-bottom: 100px;
+}
+.img-go{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1050px;
+    
+    margin: 0 auto;
+}
+/* footer */
+.foot{
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1250px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+  
+    padding: 20px 150px;
+}
+footer{
+    margin-top: 100px;
+}
+
 
 
 
 /* media quaries */
 
 @media only screen and (max-width:688px) {
+    
+    
     nav,nav ul{
         grid-template-columns: repeat(1,1fr);
         width: 100%;
@@ -156,17 +286,20 @@ nav ul{
         width: 390px;
 
     }
-    .feat{
+    .feat, .en-info, .sec-title, .img-go{
         grid-template-columns: repeat(1,1fr);
         flex-direction: column;
     }
-    .en-info{
-        grid-template-columns: repeat(1,1fr);
-        flex-direction: column;
-        
+    .en-img img{
+        margin: 0;
+        width: 500px;
     }
-    .en-text{
-        margin-left: 200px;
-    }
+    
+    
+    
+    
+   
+    
+
     
 }
